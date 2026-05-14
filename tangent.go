@@ -9,7 +9,7 @@ import (
 )
 
 type message struct {
-	Type	 string			`json:"title"`
+	Type	 string			`json:"type"`
 	Payload  json.RawMessage `json:"payload,omitempty"`
 }
 
